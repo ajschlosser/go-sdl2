@@ -192,7 +192,6 @@ func main() {
 			case sdl.QuitEvent: // NOTE: Please use `*sdl.QuitEvent` for `v0.4.x` (current version).
 				println("Quit")
 				running = false
-				break
 			}
 		}
 
